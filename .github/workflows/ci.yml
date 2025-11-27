@@ -2,8 +2,8 @@ name: Tarea Automatizada de ejecución de pruebas
 
 env:
   DOTNET_VERSION: '8.x'                     # la versión de .NET
-  SONAR_ORG: ''                    # Nombre de la organización de sonar cloud
-  SONAR_PROJECT: ''        # Key ID del proyecto de sonar
+  SONAR_ORG: 'krcrimson'                    # Nombre de la organización de sonar cloud
+  SONAR_PROJECT: 'krcrimson_lab-2025-ii-cps-u3-01-krcrimson'        # Key ID del proyecto de sonar
 on:
   push:
     branches: [ "main" ]
