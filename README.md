@@ -31,10 +31,10 @@
 1. Abrir un navegador de internet e ingrear a la pagina de SonarCloud (https://www.sonarsource.com/products/sonarcloud/), iniciar sesión con su cuenta de Github.
 2. En el navegador de internet, en la pagina de SonarCloud, generar un nuevo token con el nombre que desee, luego de generar el token, guarde el resultado en algún archivo o aplicación de notas. Debido a que se utilizará mas adelante.
 3. En el navegador de internet, en la pagina de SonarCloud, hacer click en el icono + y luego en la opción *Analyze projects*. En la ventana de Analyze Projects, seleccionar la opción *create a project manually* para crear un proyecto de manera manual.
-![image](https://github.com/UPT-FAING-EPIS/lab_ci_pruebas_01/assets/10199939/17b92d10-c2ca-4f7f-90d5-919c0b27ca6b)
+<img width="705" height="462" alt="image" src="https://github.com/user-attachments/assets/29cb8f7b-2614-4032-b2ce-8f2a7a4e3362" />
 
 4. En el navegador de internet, en la pagina de SonarCloud, en la pagina de nuevo proyecto ingresar el nombre *BancaApp*, tomar nota del valor generado en el cuadro Project Key que sera utilizado mas adelante, confirmar la creación del proyecto haciendo click en el boton Next.
-![image](https://github.com/UPT-FAING-EPIS/lab_ci_pruebas_01/assets/10199939/570d2cb9-a6d4-4629-a981-8408c308dc1e)
+<img width="584" height="472" alt="image" src="https://github.com/user-attachments/assets/92ce43fb-e557-4083-879f-cfd5b31f9e8b" />
 
 5. En el navegador de internet, en la pagina de SonarCloud, en la pagina de *Set up your project or Clean as You Code*, seleccionar la opción *Previuos version*, confirmar la creación del proyecto haciendo click en el boton Create Project.
 ![image](https://github.com/UPT-FAING-EPIS/lab_ci_pruebas_01/assets/10199939/3d7c6776-e79e-4f68-bd40-5a1175c0b150)
@@ -60,8 +60,8 @@ name: Tarea Automatizada de ejecución de pruebas
 
 env:
   DOTNET_VERSION: '8.x'                     # la versión de .NET
-  SONAR_ORG: 'p-cuadros'                    # Nombre de la organización de sonar cloud
-  SONAR_PROJECT: 'p-cuadros_bancaapp'        # Key ID del proyecto de sonar
+  SONAR_ORG: 'krcrimson'                    # Nombre de la organización de sonar cloud
+  SONAR_PROJECT: 'krcrimson_lab-2025-ii-cps-u3-01-krcrimson'        # Key ID del proyecto de sonar
 on:
   push:
     branches: [ "main" ]
@@ -127,13 +127,13 @@ jobs:
 ```
 11. En el Visual Studio Code o en un terminal, subir o confirmar los cambios al repositorio.
 12. En el navegador de internet, en pagina Github del repositorio de su proyecto. En la sección Actions, se podra visualizar el siguiente resultado.
-![image](https://github.com/UPT-FAING-EPIS/lab_ci_pruebas_01/assets/10199939/a1534320-2438-4161-84ca-36143c045c53)
+<img width="1296" height="372" alt="image" src="https://github.com/user-attachments/assets/a7443d80-b96c-406e-b127-810955416117" />
 
 13. En el navegador de internet, en la pagina de SonarCloud, en el nuevo proyecto creado se podra visualizar el resultado de la ejecución
 ![image](https://github.com/UPT-FAING-EPIS/lab_ci_pruebas_01/assets/10199939/8ea2ac22-b40b-4067-9bf0-4b972a5eb313)
 
 14. En el navegador de internet, ingresar a la direcciòn generada en el paso 7, de Github Pages y se podrá visualizar el siguiente resultado:
 
-![image](https://github.com/UPT-FAING-EPIS/lab_ci_pruebas_01/assets/10199939/a4f9ad6e-6aa1-424b-a496-9a16cad2ac2d)
+<img width="699" height="338" alt="image" src="https://github.com/user-attachments/assets/c15e7823-68cf-4170-ba5f-81208a56b4ec" />
 
-![image](https://github.com/UPT-FAING-EPIS/lab_ci_pruebas_01/assets/10199939/3326
+<img width="1178" height="589" alt="image" src="https://github.com/user-attachments/assets/a20089f3-0060-4f72-a71b-d192968206aa" />
